@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "224791037649",
+    "firebase_url": "https://rideapp-1523822456570.firebaseio.com",
+    "project_id": "rideapp-1523822456570",
+    "storage_bucket": "rideapp-1523822456570.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224791037649:android:31670181b407b648",
+        "android_client_info": {
+          "package_name": "peraride.ce.pdn.edu.peraride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224791037649-ld7s22h0mhdooh6drj5icmalcv3kgdlp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "peraride.ce.pdn.edu.peraride",
+            "certificate_hash": "c5e16c65125f4561693cde37d9252fe5659fc1d3"
+          }
+        },
+        {
+          "client_id": "224791037649-s75onp4qkv8iapcu00ma3c94m0364isk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwIrymCtJflDm6NS883Ty_4diJmdaPrgE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224791037649-s75onp4qkv8iapcu00ma3c94m0364isk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

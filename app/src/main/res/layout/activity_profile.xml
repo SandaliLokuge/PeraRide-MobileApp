@@ -1,0 +1,226 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="peraride.ce.pdn.edu.peraride.ui.ProfileActivity">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:background="#71724f"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/profile2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:textSize="21sp"
+                        android:textStyle="bold"
+                        android:id="@+id/nameView"
+                        android:textAlignment="center"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ScrollView
+                android:id="@+id/profile_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:divider="?android:dividerHorizontal"
+                    android:showDividers="middle">
+
+                    <!-- name Label android:background="#71724f"-->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="80dp"
+                        android:paddingTop="20dp"
+                        >
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/user1" />
+
+
+                        <TextView
+                            android:id="@+id/fullnameView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:width="230dp"
+                            android:height="30dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/darkgray"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="20dp"
+                            android:textAlignment="gravity"/>
+                    </LinearLayout>
+
+
+
+                <!-- NIC Label -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingLeft="80dp"
+                    android:paddingTop="20dp">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/id" />
+
+
+                    <TextView
+                        android:id="@+id/nicView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:width="230dp"
+                        android:height="30dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textColor="@color/darkgray"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="20dp"
+                        android:textAlignment="gravity"/>
+                </LinearLayout>
+
+                    <!-- regno Label -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="80dp"
+                        android:paddingTop="20dp">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/id" />
+
+
+                        <TextView
+                            android:id="@+id/regnoView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:width="230dp"
+                            android:height="30dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/darkgray"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="20dp"
+                            android:textAlignment="gravity"/>
+                    </LinearLayout>
+
+                    <!-- phone Label -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="80dp"
+                        android:paddingTop="20dp">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/phone" />
+
+
+                        <TextView
+                            android:id="@+id/phonenumberView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:width="230dp"
+                            android:height="30dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/darkgray"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="20dp"
+                            android:textAlignment="gravity"/>
+                    </LinearLayout>
+
+                    <!-- email Label -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingLeft="80dp"
+                        android:paddingTop="20dp">
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="30dp"
+                            android:background="@drawable/email" />
+
+                        <TextView
+                            android:id="@+id/emailView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:width="230dp"
+                            android:height="30dp"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                            android:textColor="@color/darkgray"
+                            android:textSize="16dp"
+                            android:layout_marginLeft="20dp"
+                            android:textAlignment="gravity"/>
+                    </LinearLayout>
+
+
+
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/pass_button"
+                        android:layout_width="180dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="24dp"
+                        android:layout_marginTop="24dp"
+                        android:padding="12dp"
+                        android:text="Change Password"
+                        android:layout_marginLeft="80dp"
+                        android:background="#680612"
+                        android:textColor="@android:color/white"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
